@@ -11,7 +11,7 @@ while count < src.length do
   
   while inner_count < src[count].length do
     
-    if src[count] % 2 == 0 
+    if src[count][inner_count] % 2 == 0 
       
       even_numbers << src[count][inner_count]  
       
