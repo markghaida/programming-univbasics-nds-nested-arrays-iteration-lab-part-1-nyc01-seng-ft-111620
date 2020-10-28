@@ -21,3 +21,7 @@ end
 
 count += 1 
 end 
+
+p even_numbers
+
+end
