@@ -5,15 +5,15 @@ def find_even_values(src)
 count = 0 
 even_numbers = []
 
-while count < array_of_arrays.length do 
-  p array_of_arrays[count]
+while count < src.length do 
+  p src[count]
   inner_count = 0 
   
-  while inner_count < array_of_arrays[count].length do
+  while inner_count < src[count].length do
     
-    if array[count] % 2 == 0 
+    if src[count] % 2 == 0 
       
-      even_numbers << array_of_arrays[count][inner_count]  
+      even_numbers << src[count][inner_count]  
       
     end 
     inner_count += 1 
