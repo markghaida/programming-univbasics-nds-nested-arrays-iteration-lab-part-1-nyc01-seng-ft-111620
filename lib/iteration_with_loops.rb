@@ -14,6 +14,10 @@ while count < array.length do
     if array[count] % 2 == 0 
       
       even_numbers << array[count][inner_count]  
-     inner_count += 1 
-  
+      
+    end 
+    inner_count += 1 
 end
+
+count += 1 
+end 
